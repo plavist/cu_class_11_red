@@ -51,7 +51,7 @@ def manage_contacts():
 
 
 def manage_financial_records():
-    notes_manager = NotesManager("data/notes.json")
+    notes_manager = NotesManager("data/finances.json")
     notes_manager.menu()
 
 
